@@ -1,0 +1,27 @@
+package com.upstart.springboot_task01.dto;
+
+public class MessageDto {
+	private String message;
+	private String status;
+	
+	public MessageDto(String message, String status) {
+		this.message = message;
+		this.status = status;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+}
